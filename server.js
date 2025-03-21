@@ -1,6 +1,9 @@
 const http = require("http");
 
-const port = 8081;
+const port = 8081;  // local port num
+
+// HTTP Methods
+
 
 http
    .createServer((req, res) => { // call back function
